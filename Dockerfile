@@ -1,4 +1,4 @@
-FROM python:$PYTHON_IMAGE_VERSION
+FROM python:3.6.12-slim-buster
 
 RUN pip install --upgrade pip \
  && pip install pipenv \
