@@ -1,4 +1,3 @@
-ARG PYTHON_IMAGE_VERSION=3
 FROM python:$PYTHON_IMAGE_VERSION
 
 RUN pip install --upgrade pip \
